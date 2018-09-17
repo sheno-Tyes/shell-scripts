@@ -185,7 +185,7 @@ generate_config() {
 	    group haproxy
 	defaults
 	    mode tcp
-	    timeout connect 5s
+	    timeout connect 30s
 	    timeout client 30s
 	    timeout server 30s
 	backend local
