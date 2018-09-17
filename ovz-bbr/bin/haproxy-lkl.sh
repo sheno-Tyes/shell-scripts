@@ -186,8 +186,8 @@ generate_config() {
 	defaults
 	    mode tcp
 	    timeout connect 30s
-	    timeout client 30s
-	    timeout server 30s
+	    timeout client 100s
+	    timeout server 100s
 	backend local
 	    server srv 10.0.0.1
 	EOF
